@@ -1,0 +1,152 @@
+{
+    "response": {
+        "NopEnvironment": {
+            "sessionID": "4DF8C3996B132DE6B03BED2AA044F6C0",
+            "apiVersion": 505020008,
+            "dateFormat": "I",
+            "timeFormat": "S",
+            "language": 1,
+            "decimalChar": ".",
+            "NopServerIndicator": {
+                "text": "User exit ESUEX02N defined",
+                "position": "B",
+                "color": "#FFFFFF",
+                "background": "#000000"
+            }
+        },
+        "NopResult": {
+            "object": "RM",
+            "function": "LS",
+            "objPath": [
+                "RM"
+            ],
+            "helpID": 1625415000,
+            "helpUrl": "NOP\\docu\\en\\admin\\resource_0270.htm#list_resources"
+        },
+        "NopData": {
+            "NopFilter": {
+                "OPRMSL_RESOURCE_SELECT": ""
+            },
+            "NopList": {
+                "tHeader": [
+                    "Resource",
+                    "Type",
+                    "Initial quantity",
+                    "Used quantity",
+                    "Library",
+                    "User exit",
+                    "Enabled",
+                    "Call Time",
+                    "New Column"
+                ],
+                "tFormat": [
+                    "A20:RM",
+                    "V1",
+                    "N7.2",
+                    "N7.2",
+                    "A8",
+                    "A8",
+                    "B",
+                    "A8",
+                    "A8"
+                ],
+                "tBody": [
+                    [
+                        "OGC",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        0.00,
+                        null,
+                        "",
+                        "",
+                        false,
+                        "",
+                        "new column data"
+                    ],
+                    [
+                        "OGC1",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        0.00,
+                        null,
+                        "",
+                        "",
+                        false,
+                        "",
+                        "new column data"
+                    ],
+                    [
+                        "OGC3",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        0.00,
+                        null,
+                        "",
+                        "",
+                        false,
+                        "",
+                        "new column data"
+                    ],
+                    [
+                        "SI-RM-NQ-P",
+                        {
+                            "key": "N",
+                            "value": "Not quantitative (binary)"
+                        },
+                        1.00,
+                        null,
+                        "",
+                        "",
+                        false,
+                        ""
+                    ],
+                    [
+                        "SI-RM-QR-P",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        9876543.21,
+                        null,
+                        "",
+                        "",
+                        false,
+                        ""
+                    ],
+                    [
+                        "SI-RM-QU-P",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        1234.56,
+                        null,
+                        "",
+                        "",
+                        false,
+                        ""
+                    ],
+                    [
+                        "TESTRESOURCE",
+                        {
+                            "key": "R",
+                            "value": "Quantitative, reusable"
+                        },
+                        50.00,
+                        null,
+                        "SYSEORU",
+                        "E01-J01",
+                        false,
+                        ""
+                    ]
+                ]
+            }
+        }
+    }
+}

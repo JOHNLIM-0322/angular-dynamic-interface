@@ -1,0 +1,32 @@
+JSON Response: {{ nopResponse| json }}
+
+<p>Parse Response:</p>
+<!-- <div class="form-group">
+    <input type="search" placeholder="Search" />
+</div> -->
+
+<table>
+    <thead>
+        <tr>
+            <th *ngFor='let header of nopResponse?.NopData?.NopList?.tHeader'>{{ header }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let body of nopResponse?.NopData?.NopList?.tBody; let x = index'>
+            <td *ngFor='let key of nopResponse?.NopData?.NopList?.tHeader; let y = index'>
+                {{formatTableBody(x, y)}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<div>
+    <p>NopEnvironment:</p>
+    <p>sessionID : {{ nopResponse?.NopEnvironment?.sessionID }}</p>
+    <p>apiVersion: {{ nopResponse?.NopEnvironment?.apiVersion }}</p>
+    <p>dateFormat: {{ nopResponse?.NopEnvironment?.dateFormat }}</p>
+    <p>timeFormat: {{ nopResponse?.NopEnvironment?.timeFormat }}</p>
+    <p>language : {{ nopResponse?.NopEnvironment?.language }}</p>
+
+
+</div>
