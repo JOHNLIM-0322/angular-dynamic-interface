@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "https://daeesmsilk2:8443/now_tomcat",
+        "secure": true,
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "response": {
+        "NopEnvironment": {
+            "sessionID": "«sid»",
+            "apiVersion": 505020008,
+            "dateFormat": "I",
+            "timeFormat": "S",
+            "language": 1,
+            "decimalChar": ".",
+            "NopServerIndicator": {
+                "text": "QA 5.5.2.7 2023-01-25",
+                "position": "B",
+                "color": "#000000",
+                "background": "#00FF00"
+            }
+        },
+        "NopResult": {
+            "obj": "AF",
+            "functions": [
+                {
+                    "fun": {
+                        "funId": "EO",
+                        "name": "Entire Operations Defaults",
+                        "helpID": 1006159000,
+                        "helpUrl": null,
+                        "enabled": true
+                    }
+                },
+                {
+                    "fun": {
+                        "funId": "MD",
+                        "name": "Monitor Defaults",
+                        "helpID": 1006436000,
+                        "helpUrl": null,
+                        "enabled": true
+                    }
+                },
+                {
+                    "fun": {
+                        "funId": "GM",
+                        "name": "Messages and Exits",
+                        "helpID": 1006229000,
+                        "helpUrl": null,
+                        "enabled": true
+                    }
+                },
+                {
+                    "ruler": "-"
+                },
+                {
+                    "fun": {
+                        "funId": "SF",
+                        "name": "Special Functions",
+                        "helpID": 1006654000,
+                        "helpUrl": null,
+                        "enabled": true
+                    }
+                },
+                {
+                    "fun": {
+                        "funId": "RA",
+                        "name": "RPC Defaults",
+                        "helpID": 1006613000,
+                        "helpUrl": null,
+                        "enabled": true
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,9 +1,32 @@
 JSON Response: {{ nopResponse| json }}
-
+<br>
+JSON Response: {{ nopFunc| json }}
 <p>Parse Response:</p>
 <!-- <div class="form-group">
     <input type="search" placeholder="Search" />
 </div> -->
+<div>
+    <button type="button" (click)="onClickLogon()">Logon</button>
+</div>
+<div>
+    <button type="button" (click)="onClick1()">Click to view Dynamic Table</button>
+</div>
+<div>
+    <button type="button" (click)="onClikc2()">Click to view Menu</button>
+</div>
+
+<div>
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+</div>
+
 
 <table>
     <thead>
@@ -27,6 +50,4 @@ JSON Response: {{ nopResponse| json }}
     <p>dateFormat: {{ nopResponse?.NopEnvironment?.dateFormat }}</p>
     <p>timeFormat: {{ nopResponse?.NopEnvironment?.timeFormat }}</p>
     <p>language : {{ nopResponse?.NopEnvironment?.language }}</p>
-
-
 </div>

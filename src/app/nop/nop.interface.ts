@@ -1,3 +1,29 @@
+// ------------------ AF
+export interface NOPResponse_AF {
+    NopEnvironment: NOPEnvironment;
+    NopResult: NOPResult_AF;
+}
+
+export interface NOPResult_AF {
+    obj: string;
+    functions: (Functions | { ruler: string })[];
+}
+
+export interface FunctionItem  {
+    fundId: string;
+    name: string;
+    helpID: number;
+    helpUrl: string | null;
+    enabled: boolean;
+}
+
+export interface Functions {
+    fun: FunctionItem;
+}
+
+// ------------------- RM
+
+
 
 export interface NOPResponse {
     NopEnvironment: NOPEnvironment;
