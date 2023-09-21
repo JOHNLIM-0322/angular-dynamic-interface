@@ -35,7 +35,8 @@ export class NopComponent implements OnInit {
   }
 
   onClick1() {
-    this.nopService.getData().subscribe((response) => {
+    console.log('click 1')
+    this.nopService.getData2().subscribe((response) => {
       console.log(response);
       this.nopResponse = response;
       console.log(this.nopResponse?.NopEnvironment?.sessionID);
